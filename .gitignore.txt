@@ -1,0 +1,9 @@
+# KiCad backup and temporary files
+*.bak
+*.kicad_prl
+*.lck
+*.tmp
+_saved-*
+
+# Output directories
+/kicad-build/
