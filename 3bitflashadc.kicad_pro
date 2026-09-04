@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -417,6 +417,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -429,7 +437,7 @@
         "uuid": "cc81ccae-c158-4648-8e61-a83ff17af6d5"
       }
     ],
-    "used_designators": "AFF1,U1-6,Rb1,#FLG1-2,R1-15,RV1,C1-4,#PWR1-32,Ra1,Rc1,Rd1,Re1,Rf1,Rg1",
+    "used_designators": "AFF1,U1-6,Rb1,#FLG1-2,R1-15,RV1,C1-4,#PWR1-38,Ra1,Rc1,Rd1,Re1,Rf1,Rg1,J1",
     "variants": []
   },
   "sheets": [
